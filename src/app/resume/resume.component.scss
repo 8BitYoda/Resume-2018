@@ -1,5 +1,29 @@
-.email{
+@import "src/colors.scss";
+
+.left {
+  background-color: $light-primary-color;
+  width: 20%;
+  height: 100%;
+}
+
+.name,
+.contactInfo {
+  margin-left: 20px;
+}
+
+.contactInfo {
   font-weight: bold;
   font-style: italic;
-  margin-top: -20px;
+  p{
+    margin-top: -15px;
+  }
+}
+
+img {
+  width: 50%;
+  height: auto;
+  margin: 5% 25%;
+
+  background: white;
+  border-radius: 50%;
 }

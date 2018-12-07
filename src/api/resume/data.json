@@ -2,6 +2,8 @@
   "firstName": "Martin",
   "lastName": "Hutchens",
   "email": "8bityoda.dev@gmail.com",
+  "phone": "5551234567",
+  "profilePic": "assets/8BitYoda-nb.png",
   "jobs": [
     {
       "title": "frontend developer",

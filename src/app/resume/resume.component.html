@@ -1,2 +1,11 @@
-<h1>{{rData.firstName}} {{rData.lastName}}</h1>
-<p class='email'>{{rData.email}}</p>
+<div class='left light-primary-color'>
+  <img [src]='rData.profilePic'>
+  <h1 class='name'>{{rData.firstName}} {{rData.lastName}}</h1>
+  <div class='contactInfo'>
+      <p><i class="fa fa-envelope-o" aria-hidden="true"></i> {{rData.email}}</p>
+      <p><i class="fa fa-phone" aria-hidden="true"></i> {{rData.phone}}</p>
+  </div>
+</div>
+
+<div class='right'>
+</div>
