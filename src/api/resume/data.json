@@ -1,0 +1,25 @@
+{
+  "firstName": "Martin",
+  "lastName": "Hutchens",
+  "email": "8bityoda.dev@gmail.com",
+  "jobs": [
+    {
+      "title": "frontend developer",
+      "company": "CapTech",
+      "startDate": "2018-11-19"
+    },
+    {
+      "title": "software developer",
+      "company": "RSDC",
+      "startDate": "2018-05-15",
+      "endDate": "2018-11-14"
+    },
+    {
+      "title": "jr software developer",
+      "company": "RSDC",
+      "startDate": "2016-03-20",
+      "endDate": "2018-5-15"
+    }
+  ],
+  "skills": []
+}
