@@ -9,12 +9,14 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 import { ResumeComponent } from './resume/resume.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormatPhoneNumberPipe } from './shared/format-phone-number.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-    ResumeComponent
+    ResumeComponent,
+    FormatPhoneNumberPipe
   ],
   imports: [
     BrowserModule,

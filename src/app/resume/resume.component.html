@@ -2,8 +2,8 @@
   <img [src]='rData.profilePic'>
   <h1 class='name'>{{rData.firstName}} {{rData.lastName}}</h1>
   <div class='contactInfo'>
-      <p><i class="fa fa-envelope-o" aria-hidden="true"></i> {{rData.email}}</p>
-      <p><i class="fa fa-phone" aria-hidden="true"></i> {{rData.phone}}</p>
+      <p><i class="fa fa-envelope" aria-hidden="true"></i> {{rData.email}}</p>
+      <p><i class="fa fa-phone" aria-hidden="true"></i> {{rData.phone | formatPhoneNumber}}</p>
   </div>
 </div>
 
