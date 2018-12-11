@@ -10,6 +10,7 @@
         <span>{{edu.startDate}} - {{edu.endDate ? edu.endDate : "current"}}</span>
       </mat-panel-description>
     </mat-expansion-panel-header>
+    <img class='logo' [src]='edu.logo'><br />
     <span class='location'>{{edu.city | titlecase}}, {{edu.state | uppercase}}</span><br />
     <span class='detail'>{{edu.detail}}</span>
     <!-- extra data here -->

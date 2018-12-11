@@ -10,7 +10,8 @@
         <span>{{job.startDate}} - {{job.endDate ? job.endDate : "current"}}</span>
       </mat-panel-description>
     </mat-expansion-panel-header>
-    <span class='location'>{{job.city | titlecase}}, {{job.state | uppercase}}</span><br/>
+    <img class='logo' [src]='job.logo'><br />
+    <span class='location'>{{job.city | titlecase}}, {{job.state | uppercase}}</span><br />
     <span class='detail'>{{job.detail}}</span>
     <!-- extra data here -->
   </mat-expansion-panel>

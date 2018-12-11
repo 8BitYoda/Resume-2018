@@ -4,7 +4,7 @@ import { IResumeDataEdu } from '../resume-data-edu';
 @Component({
   selector: 'app-education-history',
   templateUrl: './education-history.component.html',
-  styleUrls: ['./education-history.component.scss']
+  styleUrls: ['../resume.history.scss']
 })
 export class EducationHistoryComponent implements OnInit {
   @Input() schools: Array<IResumeDataEdu>;
