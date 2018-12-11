@@ -4,8 +4,7 @@
   "email": "8bityoda.dev@gmail.com",
   "phone": "5551234567",
   "profilePic": "assets/8BitYoda-nb.png",
-  "jobs": [
-    {
+  "jobs": [{
       "title": "frontend developer",
       "company": "CapTech",
       "state": "NC",
@@ -18,7 +17,8 @@
       "state": "sc",
       "city": "CHarleston",
       "startDate": "2018-05-15",
-      "endDate": "2018-11-14"
+      "endDate": "2018-11-14",
+      "detail": "Shank strip steak meatball, pastrami pork filet mignon cupim chicken pig frankfurter tongue porchetta. Cupim drumstick tail, chicken meatball sirloin kielbasa t-bone. Drumstick jerky buffalo jowl, pork belly prosciutto beef bresaola ball tip burgdoggen beef ribs flank. Pork chop swine ribeye tail, filet mignon kielbasa salami cupim picanha pork. Short ribs ribeye jerky kevin venison doner."
     },
     {
       "title": "jr software developer",
@@ -26,7 +26,8 @@
       "state": "sC",
       "city": "charleston",
       "startDate": "2016-03-20",
-      "endDate": "2018-5-15"
+      "endDate": "2018-5-15",
+      "detail": "Bacon ipsum dolor amet strip steak sunt incididunt tempor in ex dolore adipisicing est hamburger magna consectetur ham. Ad drumstick laborum voluptate proident aliquip nulla short loin jowl pariatur enim fatback tongue tail doner. Beef ribs dolor rump tempor proident nostrud, quis consequat sirloin. Qui ullamco shankle proident, pork chop est pig consequat ad kevin nulla hamburger ball tip. Flank turkey in, mollit dolore tri-tip pariatur kielbasa short loin swine sunt ut ut hamburger deserunt. Buffalo sed meatball ball tip. \r Pork loin sausage ground round t-bone ea filet mignon. Andouille do pig duis turkey. Biltong enim nisi spare ribs id boudin. Alcatra doner in cow prosciutto salami voluptate sausage pork chop. "
     }
   ],
   "skills": []

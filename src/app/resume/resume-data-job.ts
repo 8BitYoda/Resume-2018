@@ -5,4 +5,5 @@ export interface IResumeDataJob {
   city: string;
   startDate: string;
   endDate?: string | null;
+  detail?: string | null;
 }
