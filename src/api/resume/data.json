@@ -8,17 +8,23 @@
     {
       "title": "frontend developer",
       "company": "CapTech",
+      "state": "NC",
+      "city": "Charlotte",
       "startDate": "2018-11-19"
     },
     {
       "title": "software developer",
-      "company": "RSDC",
+      "company": "RSDC Group",
+      "state": "sc",
+      "city": "CHarleston",
       "startDate": "2018-05-15",
       "endDate": "2018-11-14"
     },
     {
       "title": "jr software developer",
-      "company": "RSDC",
+      "company": "RSDC Group",
+      "state": "sC",
+      "city": "charleston",
       "startDate": "2016-03-20",
       "endDate": "2018-5-15"
     }

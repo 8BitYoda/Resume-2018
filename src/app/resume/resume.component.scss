@@ -1,9 +1,17 @@
 @import "src/colors.scss";
 
+.resumeContainer{
+  display: flex;
+  height: calc(100% - 64px);
+}
+
 .left {
   background-color: $light-primary-color;
-  width: 20%;
-  height: 100%;
+  flex: 0 0 20%;
+}
+
+.right {
+  flex: 1;
 }
 
 .name,
@@ -14,11 +22,12 @@
 .contactInfo {
   font-weight: bold;
   font-style: italic;
-  p{
+
+  p {
     margin-top: -15px;
   }
 
-  i{
+  i {
     margin-right: 10px;
     color: $dark-primary-color;
   }

@@ -1,0 +1,20 @@
+<mat-accordion [multi]='true'>
+  <mat-expansion-panel *ngFor="let job of jobs">
+    <mat-expansion-panel-header>
+      <mat-panel-title class="title">
+        {{job.company}}
+      </mat-panel-title>
+      <mat-panel-description class="description">
+        <span>
+            {{job.title | titlecase}}
+        </span>
+        |
+        <span>
+            {{job.startDate}} - {{job.endDate ? job.endDate : "current"}}
+        </span>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    {{job.city | titlecase}}, {{job.state | uppercase}}
+    <!-- extra data here -->
+  </mat-expansion-panel>
+</mat-accordion>
