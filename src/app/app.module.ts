@@ -18,6 +18,7 @@ import { ResumeComponent } from './resume/resume.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormatPhoneNumberPipe } from './shared/format-phone-number.pipe';
 import { WorkHistoryComponent } from './resume/work-history/work-history.component';
+import { EducationHistoryComponent } from './resume/education-history/education-history.component';
 
 const materialComponents = [
   MatToolbarModule,
@@ -33,7 +34,8 @@ const materialComponents = [
     NavigationComponent,
     ResumeComponent,
     FormatPhoneNumberPipe,
-    WorkHistoryComponent
+    WorkHistoryComponent,
+    EducationHistoryComponent
   ],
   imports: [
     BrowserModule,

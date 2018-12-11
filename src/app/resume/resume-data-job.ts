@@ -6,4 +6,5 @@ export interface IResumeDataJob {
   startDate: string;
   endDate?: string | null;
   detail?: string | null;
+  logo: string;
 }

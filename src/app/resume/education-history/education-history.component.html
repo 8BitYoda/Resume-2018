@@ -1,0 +1,17 @@
+<mat-accordion [multi]='true'>
+  <mat-expansion-panel *ngFor="let edu of schools">
+    <mat-expansion-panel-header>
+      <mat-panel-title class="title">
+        {{edu.school}}
+      </mat-panel-title>
+      <mat-panel-description class="description">
+        <span>{{edu.degree | titlecase}}</span>
+        |
+        <span>{{edu.startDate}} - {{edu.endDate ? edu.endDate : "current"}}</span>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <span class='location'>{{edu.city | titlecase}}, {{edu.state | uppercase}}</span><br />
+    <span class='detail'>{{edu.detail}}</span>
+    <!-- extra data here -->
+  </mat-expansion-panel>
+</mat-accordion>
