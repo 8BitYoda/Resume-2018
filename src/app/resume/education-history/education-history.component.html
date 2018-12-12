@@ -12,7 +12,10 @@
     </mat-expansion-panel-header>
     <img class='logo' [src]='edu.logo'><br />
     <span class='location'>{{edu.city | titlecase}}, {{edu.state | uppercase}}</span><br />
-    <span class='detail'>{{edu.detail}}</span>
+    <ul>
+      <li *ngFor="let item of edu.detail">{{item}}</li>
+    </ul>
+    <!-- <span class='detail'>{{edu.detail}}</span> -->
     <!-- extra data here -->
   </mat-expansion-panel>
 </mat-accordion>

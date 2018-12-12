@@ -2,7 +2,7 @@
 
 .resumeContainer{
   display: flex;
-  padding-bottom: 20px;
+  height: calc(100% - 64px);
 }
 
 .left {
@@ -13,6 +13,7 @@
 .right {
   flex: 1;
   margin: 0px 10px;
+  overflow: scroll;
 }
 
 .name,

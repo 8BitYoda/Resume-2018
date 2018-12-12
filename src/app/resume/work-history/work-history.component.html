@@ -12,7 +12,11 @@
     </mat-expansion-panel-header>
     <img class='logo' [src]='job.logo'><br />
     <span class='location'>{{job.city | titlecase}}, {{job.state | uppercase}}</span><br />
-    <span class='detail'>{{job.detail}}</span>
+    <ul>
+      <li *ngFor="let item of job.detail">
+        {{item}}
+      </li>
+    </ul>
     <!-- extra data here -->
   </mat-expansion-panel>
 </mat-accordion>
