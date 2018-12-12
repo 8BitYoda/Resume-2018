@@ -1,3 +1,12 @@
+<div class='resume-header'>
+    <h2>Work History</h2>
+    <button mat-icon-button>
+      <i class="fa fa-expand" aria-label="Expand All" (click)='accordion.openAll()'></i>
+    </button>
+    <button mat-icon-button>
+      <i class="fa fa-compress" aria-label="Collapse All" (click)='accordion.closeAll()'></i>
+    </button>
+</div>
 <mat-accordion [multi]='true'>
   <mat-expansion-panel *ngFor="let job of jobs">
     <mat-expansion-panel-header>
