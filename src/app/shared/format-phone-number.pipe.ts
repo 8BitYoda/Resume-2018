@@ -5,15 +5,22 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class FormatPhoneNumberPipe implements PipeTransform {
   transform(value: string, args?: any): string {
-    // TODO: make more robust
-    // assumes number is only 10 numbers, not counting on extensions and country codes.
+    const patrn = /^(\d{1})?(\d{3})??(\d{3})(\d{4})$/;
 
-    if (value.length === 10) {
-      // rewrite with regex
-      const areaCode: string = value.substr(0, 3);
-      const firstThree: string = value.substr(3, 3);
-      const lastFour: string = value.substr(6);
-      return '(' + areaCode + ') ' + firstThree + '-' + lastFour;
+    if (patrn.test(value)) {
+      const arr: Array<any> = value.match(patrn);
+
+      if (arr[1]) {
+        return (
+          '+' + arr[1] + ' (' + arr[2] + ') ' + ' ' + arr[3] + '-' + arr[4]
+        );
+      } else {
+        if (arr[2]) {
+          return '(' + arr[2] + ') ' + ' ' + arr[3] + '-' + arr[4];
+        } else {
+          return arr[3] + '-' + arr[4];
+        }
+      }
     }
     return value;
   }

@@ -5,6 +5,7 @@ export interface IResumeDataEdu {
   endDate?: string | null;
   state: string;
   city: string;
+  phoneNumber: string;
   detail: string;
   logo: string;
 }

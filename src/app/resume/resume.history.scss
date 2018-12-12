@@ -16,8 +16,12 @@
   }
 }
 
-.location {
+.location, .phoneNumber {
   font-style: italic;
+}
+
+.location{
+  padding-right: 20px;
 }
 
 .logo {

@@ -7,11 +7,13 @@
       <mat-panel-description class="description">
         <span>{{edu.degree | titlecase}}</span>
         |
-        <span>{{edu.startDate}} - {{edu.endDate ? edu.endDate : "current"}}</span>
+        <span>{{edu.startDate | date:"MMM yyyy"}} - {{edu.endDate ? (edu.endDate | date:"MMM yyyy") : "current"}}</span>
       </mat-panel-description>
     </mat-expansion-panel-header>
     <img class='logo' [src]='edu.logo'><br />
-    <span class='location'>{{edu.city | titlecase}}, {{edu.state | uppercase}}</span><br />
+    <span class='location'>{{edu.city | titlecase}}, {{edu.state | uppercase}}</span>
+    <span class='phoneNumber'>{{edu.phoneNumber | formatPhoneNumber}}</span><br />
+    <br />
     <ul>
       <li *ngFor="let item of edu.detail">{{item}}</li>
     </ul>

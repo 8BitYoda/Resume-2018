@@ -23,16 +23,22 @@
 
 .contactInfo {
   font-weight: bold;
-  font-style: italic;
+  font-size: 11pt;
+  color: $secondary-text-color-dark;
 
   p {
-    margin-top: -15px;
+    margin: 2px;
   }
 
   i {
     margin-right: 10px;
     color: $dark-primary-color;
   }
+}
+
+.name {
+  font-size: 18pt;
+  margin-bottom: 15px;
 }
 
 img {
