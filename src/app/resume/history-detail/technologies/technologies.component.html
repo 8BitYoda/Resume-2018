@@ -1,0 +1,4 @@
+<div class="card-container" *ngFor="let techItem of techData">
+  <img [src]='techItem.logo'>
+  <span class="card-title">{{techItem.name | titlecase}}</span>
+</div>

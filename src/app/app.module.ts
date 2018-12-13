@@ -12,12 +12,14 @@ import {
   MatSidenavModule,
   MatIconModule,
   MatListModule,
-  MatExpansionModule
+  MatExpansionModule,
+  MatCardModule
 } from '@angular/material';
 import { ResumeComponent } from './resume/resume.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormatPhoneNumberPipe } from './shared/format-phone-number.pipe';
 import { HistoryDetailComponent } from './resume/history-detail/history-detail.component';
+import { TechnologiesComponent } from './resume/history-detail/technologies/technologies.component';
 
 const materialComponents = [
   MatToolbarModule,
@@ -25,7 +27,8 @@ const materialComponents = [
   MatSidenavModule,
   MatIconModule,
   MatListModule,
-  MatExpansionModule
+  MatExpansionModule,
+  MatCardModule
 ];
 @NgModule({
   declarations: [
@@ -33,7 +36,8 @@ const materialComponents = [
     NavigationComponent,
     ResumeComponent,
     FormatPhoneNumberPipe,
-    HistoryDetailComponent
+    HistoryDetailComponent,
+    TechnologiesComponent
   ],
   imports: [
     BrowserModule,

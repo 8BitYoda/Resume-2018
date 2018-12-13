@@ -1,0 +1,28 @@
+@import '~@angular/material/theming';
+
+.card-container{
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+
+  border-radius: 4px;
+  @include mat-elevation(2);
+
+  display: inline-flex;
+  align-items: center;
+}
+
+.card-title{
+  font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-weight: 600;
+}
+
+img{
+  height: 35px;
+  width: 35;
+  border-radius: 50%;
+  flex-shrink: 0;
+  object-fit: cover;
+
+  margin: 0 5px;
+}

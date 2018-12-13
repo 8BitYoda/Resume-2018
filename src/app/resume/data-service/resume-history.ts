@@ -1,3 +1,5 @@
+import { ITechnologyDetail } from './technology-detail';
+
 export interface IResumeHistory {
   logo: string;
   institution: string;
@@ -7,7 +9,7 @@ export interface IResumeHistory {
   city: string;
   state: string;
   detail: Array<string>;
-  skills?: Array<string> | [];
+  skills?: Array<ITechnologyDetail> | [];
 
   // work history
   title?: string | null;
