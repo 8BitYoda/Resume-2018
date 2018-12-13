@@ -15,7 +15,29 @@
         "Commodo labore ipsum id, enim nostrud mollit strip steak fugiat pork belly hamburger meatloaf elit. Spare ribs beef capicola pork chop. Porchetta bacon salami, short ribs meatball strip steak drumstick ground round. Pastrami prosciutto jowl bresaola kevin.",
         "Picanha kielbasa frankfurter beef ribs swine, fatback drumstick tri-tip pancetta porchetta short loin andouille ball tip tongue t-bone. Tri-tip boudin landjaeger kielbasa turkey porchetta swine beef ribs shoulder kevin frankfurter short ribs corned beef buffalo. Capicola brisket beef ribs frankfurter."
       ],
-      "logo": "assets/logos/tempLogo2.png"
+      "logo": "assets/logos/tempLogo2.png",
+      "skills": [
+        {
+          "name": "angular",
+          "logo": "assets/technologies/angular.png"
+        },
+        {
+          "name": "typescript",
+          "logo": "assets/technologies/typescript.png"
+        },
+        {
+          "name": "sass",
+          "logo": "assets/technologies/sass.png"
+        },
+        {
+          "name": "git",
+          "logo": "assets/technologies/git.png"
+        },
+        {
+          "name": "html",
+          "logo": "assets/technologies/html.png"
+        }
+      ]
     },
     {
       "title": "software developer",
@@ -26,7 +48,29 @@
       "startDate": "2018-05-15",
       "endDate": "2018-11-14",
       "detail": ["Shank strip steak meatball, pastrami pork filet mignon cupim chicken pig frankfurter tongue porchetta. Cupim drumstick tail, chicken meatball sirloin kielbasa t-bone. Drumstick jerky buffalo jowl, pork belly prosciutto beef bresaola ball tip burgdoggen beef ribs flank. Pork chop swine ribeye tail, filet mignon kielbasa salami cupim picanha pork. Short ribs ribeye jerky kevin venison doner."],
-      "logo": "assets/logos/tempLogo.png"
+      "logo": "assets/logos/tempLogo.png",
+      "skills": [
+        {
+          "name": "AngularJs",
+          "logo": "assets/technologies/angularjs.png"
+        },
+        {
+          "name": "less",
+          "logo": "assets/technologies/less.png"
+        },
+        {
+          "name": "java",
+          "logo": "assets/technologies/java.png"
+        },
+        {
+          "name": "grunt",
+          "logo": "assets/technologies/grunt.png"
+        },
+        {
+          "name": "git",
+          "logo": "assets/technologies/git.png"
+        }
+      ]
     },
     {
       "title": "jr software developer",
@@ -39,7 +83,64 @@
       "detail": ["Bacon ipsum dolor amet strip steak sunt incididunt tempor in ex dolore adipisicing est hamburger magna consectetur ham. Ad drumstick laborum voluptate proident aliquip nulla short loin jowl pariatur enim fatback tongue tail doner. Beef ribs dolor rump tempor proident nostrud, quis consequat sirloin.",
         "Qui ullamco shankle proident, pork chop est pig consequat ad kevin nulla hamburger ball tip. Flank turkey in, mollit dolore tri-tip pariatur kielbasa short loin swine sunt ut ut hamburger deserunt. Buffalo sed meatball ball tip. \r Pork loin sausage ground round t-bone ea filet mignon. Andouille do pig duis turkey. Biltong enim nisi spare ribs id boudin. Alcatra doner in cow prosciutto salami voluptate sausage pork chop. "
       ],
-      "logo": "assets/logos/tempLogo.png"
+      "logo": "assets/logos/tempLogo.png",
+      "skills": [
+        {
+          "name": "java",
+          "logo": "assets/technologies/sass.png"
+        },
+        {
+          "name": "react",
+          "logo": "assets/technologies/react.png"
+        },
+        {
+          "name": "redux",
+          "logo": "assets/technologies/redux.png"
+        },
+        {
+          "name": "less",
+          "logo": "assets/technologies/less.png"
+        },
+        {
+          "name": "maven",
+          "logo": "assets/technologies/maven.jpg"
+        },
+        {
+          "name": "spring",
+          "logo": "assets/technologies/spring.png"
+        },
+        {
+          "name": "xml",
+          "logo": "assets/technologies/xml.png"
+        }
+      ]
+    },
+    {
+      "title": "android developer intern",
+      "institution": "Gatnexlay Studios",
+      "state": "sC",
+      "city": "charleston",
+      "phoneNumber":"8005558392",
+      "startDate": "2015-05-20",
+      "endDate": "2015-08-15",
+      "detail": ["Meatball beef fatback, ham kielbasa tri-tip chicken chuck ball tip turkey. Short ribs shoulder tail, beef pork fatback jowl frankfurter pig chicken strip steak alcatra picanha. Sausage fatback spare ribs, leberkas picanha pork venison buffalo tri-tip. Sirloin beef capicola burgdoggen, strip steak rump leberkas kielbasa pork chop filet mignon.",
+        "Fatback kielbasa ground round, frankfurter prosciutto biltong turkey meatloaf t-bone ham drumstick andouille jowl short ribs tri-tip. Landjaeger chuck brisket venison sausage. Pork sausage turducken burgdoggen, cow ground round filet mignon tail shoulder biltong ribeye venison salami picanha."
+      ],
+      "logo": "assets/logos/tempLogo3.png",
+      "skills": [
+        {
+          "name": "android",
+          "logo": "assets/technologies/android.png"
+        },
+        {
+          "name": "java",
+          "logo": "assets/technologies/java.png"
+        },
+        {
+          "name": "git",
+          "logo": "assets/technologies/git.png"
+        }
+      ]
     }
   ],
   "education": [{

@@ -1,6 +1,7 @@
 @import "src/colors.scss";
+@import '~@angular/material/theming';
 
-.resumeContainer{
+.resumeContainer {
   display: flex;
   height: calc(100% - 64px);
 }
@@ -37,8 +38,8 @@
 }
 
 .name {
-  font-size: 18pt;
-  margin-bottom: 15px;
+  font-size: 20pt;
+  margin-bottom: 10px;
 }
 
 img {
@@ -46,6 +47,7 @@ img {
   height: auto;
   margin: 5% 25%;
 
+  @include mat-elevation(4);
   background: white;
   border-radius: 50%;
 }
