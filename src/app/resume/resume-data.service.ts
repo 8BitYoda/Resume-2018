@@ -14,7 +14,6 @@ export class ResumeDataService {
 
   getResumeData(): Observable<IResumeData> {
     return this.http.get<IResumeData>(this.resDataUrl).pipe(
-      tap(data => console.log('All: ' + JSON.stringify(data))),
       catchError(this.handleError)
     );
   }
