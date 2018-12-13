@@ -8,7 +8,7 @@
     </div>
   </aside>
   <div class='right'>
-    <app-work-history [jobs]='rData?.jobs'></app-work-history>
-    <app-education-history [schools]='rData?.education'></app-education-history>
+    <app-history-detail [historyData]='rData?.jobs' [sectionType]='"job"'></app-history-detail>
+    <app-history-detail [historyData]='rData?.education' [sectionType]='"edu"'></app-history-detail>
   </div>
 </section>

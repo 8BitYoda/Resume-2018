@@ -6,7 +6,7 @@
   "profilePic": "assets/8BitYoda-nb.png",
   "jobs": [{
       "title": "frontend developer",
-      "company": "PacTech",
+      "institution": "PacTech",
       "state": "NC",
       "city": "Charlotte",
       "phoneNumber": "18005554321",
@@ -19,7 +19,7 @@
     },
     {
       "title": "software developer",
-      "company": "CDSR Group",
+      "institution": "CDSR Group",
       "state": "sc",
       "city": "CHarleston",
       "phoneNumber": "8005557890",
@@ -30,7 +30,7 @@
     },
     {
       "title": "jr software developer",
-      "company": "CDSR Group",
+      "institution": "CDSR Group",
       "state": "sC",
       "city": "charleston",
       "phoneNumber":"8005557890",
@@ -43,7 +43,7 @@
     }
   ],
   "education": [{
-    "school": "CHS S University",
+    "institution": "CHS S University",
     "degree": "Bachelor of Science: Computer Science",
     "state": "SC",
     "city": "CHarleston",

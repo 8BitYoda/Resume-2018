@@ -1,0 +1,33 @@
+<div class='resume-header'>
+  <h2>{{sectionTitle}}</h2>
+  <button mat-icon-button>
+    <i class="fa fa-expand" aria-label="Expand All" (click)='accordion.openAll()'></i>
+  </button>
+  <button mat-icon-button>
+    <i class="fa fa-compress" aria-label="Collapse All" (click)='accordion.closeAll()'></i>
+  </button>
+</div>
+<mat-accordion [multi]='true'>
+  <mat-expansion-panel *ngFor="let historyData of historyData">
+    <mat-expansion-panel-header>
+      <mat-panel-title class="title">
+        {{historyData.institution}}
+      </mat-panel-title>
+      <mat-panel-description class="description">
+        <span>{{(historyData.title ? historyData.title : historyData.degree) | titlecase}}</span>
+        |
+        <span>{{historyData.startDate | date:"MMM yyyy"}} - {{historyData.endDate ? (historyData.endDate | date:"MMM
+          yyyy") : "current"}}</span>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <img class='logo' [src]='historyData.logo'><br />
+    <span class='location'>{{historyData.city | titlecase}}, {{historyData.state | uppercase}}</span>
+    <span class='phoneNumber'>{{historyData.phoneNumber | formatPhoneNumber}}</span><br />
+    <ul>
+      <li *ngFor="let item of historyData.detail">
+        {{item}}
+      </li>
+    </ul>
+    <!-- extra data here -->
+  </mat-expansion-panel>
+</mat-accordion>
