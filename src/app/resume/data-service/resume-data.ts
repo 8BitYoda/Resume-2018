@@ -6,6 +6,7 @@ export interface IResumeData {
   email: string;
   phone: string;
   profilePic: string;
+  summary: string;
   jobs?: (IResumeHistory)[] | null;
   education?: (IResumeHistory)[] | null;
 }

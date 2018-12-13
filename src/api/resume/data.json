@@ -3,7 +3,9 @@
   "lastName": "Hutchens",
   "email": "8bityoda.dev@gmail.com",
   "phone": "5551234567",
+  "title": "Frontend Developer | Consultant",
   "profilePic": "assets/8BitYoda-nb.png",
+  "summary": "I am a front-end developer with hands-on experience in object-oriented development, testing, and design. I am always determined to find a project where I will be challenged and where my skill set will be fully utilized in order to be a beneficial asset to the company. I am able to work independently, as well as effectively work as part of a larger team in order to meet deadlines in both large and small code bases.",
   "jobs": [{
       "title": "frontend developer",
       "institution": "PacTech",

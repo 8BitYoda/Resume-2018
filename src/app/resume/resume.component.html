@@ -8,6 +8,10 @@
     </div>
   </aside>
   <div class='right'>
+    <p class='summary'>
+      <i class='fa fa-quote-left' aria-hidden="true"></i>
+      {{rData?.summary}}
+    </p>
     <app-history-detail [historyData]='rData?.jobs' [sectionType]='"job"'></app-history-detail>
     <app-history-detail [historyData]='rData?.education' [sectionType]='"edu"'></app-history-detail>
   </div>
