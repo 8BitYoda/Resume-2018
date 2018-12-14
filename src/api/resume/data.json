@@ -65,12 +65,16 @@
           "logo": "assets/technologies/java.png"
         },
         {
-          "name": "grunt",
-          "logo": "assets/technologies/grunt.png"
+          "name": "javascript",
+          "logo": "assets/technologies/javascript.png"
         },
         {
           "name": "git",
           "logo": "assets/technologies/git.png"
+        },
+        {
+          "name": "grunt",
+          "logo": "assets/technologies/grunt.png"
         }
       ]
     },
