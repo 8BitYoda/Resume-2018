@@ -1,0 +1,21 @@
+@import "src/colors.scss";
+
+.banner {
+  height: 80px;
+  background-color: $dark-primary-color;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+
+  .title {
+    color: $text-primary-color;
+    font-size: 26pt;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .subtitle {
+    color: $light-primary-color;
+    font-size: 16pt;
+    margin-left: 10px;
+  }
+}
