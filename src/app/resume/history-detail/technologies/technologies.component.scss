@@ -1,6 +1,6 @@
 @import '~@angular/material/theming';
 
-.card-container{
+.card-container {
   width: 150px;
   height: 50px;
   margin: 10px;
@@ -12,14 +12,14 @@
   align-items: center;
 }
 
-.card-title{
-  font-family: Roboto,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+.card-title {
+  font-family: Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 600;
 }
 
-img{
+img {
   height: 35px;
-  width: 35;
+  width: 35px;
   flex-shrink: 0;
   object-fit: cover;
 

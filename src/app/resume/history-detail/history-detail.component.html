@@ -8,7 +8,7 @@
   </button>
 </div>
 <mat-accordion [multi]='true'>
-  <mat-expansion-panel *ngFor="let historyData of historyData">
+  <mat-expansion-panel *ngFor="let historyData of historyData" class='card-container'>
     <mat-expansion-panel-header>
       <mat-panel-title class="title">
         {{historyData.institution}}

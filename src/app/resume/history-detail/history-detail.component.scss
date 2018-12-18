@@ -1,8 +1,9 @@
-.resume-header{
-  h2{
+.resume-header {
+  h2 {
     display: inline-block;
   }
-  button{
+
+  button {
     float: right;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
@@ -27,11 +28,12 @@
   }
 }
 
-.location, .phoneNumber {
+.location,
+.phoneNumber {
   font-style: italic;
 }
 
-.location{
+.location {
   padding-right: 20px;
 }
 
@@ -43,4 +45,9 @@
 
   object-fit: cover;
   margin-bottom: 15px;
+}
+
+.card-container {
+  width: 95%;
+  margin: 0 auto;
 }
