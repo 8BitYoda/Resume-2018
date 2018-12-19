@@ -17,9 +17,9 @@ export class ResumeComponent implements OnChanges {
       if (_jobs) {
         for (const i in _jobs) {
           if (_jobs[i].skills) {
-            _jobs[i].skills.forEach(skill => {
+            for (const skill of _jobs[i].skills) {
               this.skillList.add(skill.name);
-            });
+            }
           }
         }
       }
